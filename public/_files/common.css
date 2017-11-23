@@ -1,0 +1,152 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  line-height: 1.6;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-size: 50px;
+}
+ul {
+  list-style: none;
+}
+.tips {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.tips.abs {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.tips.hide {
+  opacity: 0;
+}
+.page_flow .tips {
+  bottom: 0;
+}
+.desc {
+  color: #898989;
+}
+.arrow.arrow_right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 6px;
+  border-style: dashed;
+  border-color: transparent;
+  border-right-width: 0;
+  border-left-color: #F6F6F6;
+  border-left-style: solid;
+}
+.arrow.arrow_bottom {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 6px;
+  border-style: dashed;
+  border-color: transparent;
+  border-bottom-width: 0;
+  border-top-color: #F6F6F6;
+  border-top-style: solid;
+}
+.arrow.arrow_left {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 6px;
+  border-style: dashed;
+  border-color: transparent;
+  border-left-width: 0;
+  border-right-color: #F6F6F6;
+  border-right-style: solid;
+}
+.head,
+.intro_head {
+  display: table;
+  width: 100%;
+  height: 165px;
+  background-size: cover;
+  font-family: "ygytkjt";
+  color: #FFFFFF;
+}
+.head .inner,
+.intro_head .inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.body.abs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 165px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.intro_head {
+  height: 100px;
+}
+.pic_display_box {
+  padding: 0 15px;
+}
+.pic_display_box img {
+  display: block;
+  margin: 15px 0;
+  width: 100%;
+}
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+@media only screen and (max-height: 510px) {
+  .head,
+  .intro_head {
+    height: 120px;
+  }
+  .body.abs {
+    padding-top: 120px;
+  }
+}
+@font-face {
+  font-family: "ygytkjt";
+  src: url(../../../res/ygytkjt.ttf) format('truetype');
+}

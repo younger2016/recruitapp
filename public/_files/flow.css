@@ -1,0 +1,141 @@
+.page_flow h1 {
+  font-size: 33px;
+}
+.page_flow .icon {
+  width: 65px;
+  height: 65px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.page_flow .icon.design {
+  background: transparent url("flow_z@2x.png") no-repeat 0px 0px;-webkit-background-size: 198px 132px;background-size: 198px 132px;
+}
+.page_flow .icon.develop {
+  background: transparent url("flow_z@2x.png") no-repeat -66px 0px;-webkit-background-size: 198px 132px;background-size: 198px 132px;
+}
+.page_flow .icon.operation {
+  background: transparent url("flow_z@2x.png") no-repeat 0px -66px;-webkit-background-size: 198px 132px;background-size: 198px 132px;
+}
+.page_flow .icon.product {
+  background: transparent url("flow_z@2x.png") no-repeat -66px -66px;-webkit-background-size: 198px 132px;background-size: 198px 132px;
+}
+.page_flow .icon.release {
+  background: transparent url("flow_z@2x.png") no-repeat -132px 0px;-webkit-background-size: 198px 132px;background-size: 198px 132px;
+}
+.page_flow .icon.terminal {
+  background: transparent url("flow_z@2x.png") no-repeat -132px -66px;-webkit-background-size: 198px 132px;background-size: 198px 132px;
+}
+.page_flow .head {
+  background-image: url(../../../images/weDNA2/flow/bg.jpg);
+}
+.page_flow .body {
+  overflow-x: hidden;
+  text-align: center;
+}
+@media only screen and (max-height: 486px) {
+  .page_flow .body {
+    height: auto;
+  }
+}
+.page_flow .body ul {
+  height: 100%;
+}
+.page_flow .body li {
+  position: relative;
+  display: table;
+  width: 100%;
+  float: left;
+  width: 50%;
+  height: 33.5%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-right: 1px solid #F6F6F6;
+  border-bottom: 1px solid #F6F6F6;
+}
+.page_flow .body li:nth-child(2n) {
+  border-right: 0;
+}
+.page_flow .body .arrow_right {
+  border-left-color: #999;
+}
+.page_flow .body .arrow_bottom {
+  border-top-color: #999;
+}
+.page_flow .body .arrow_left {
+  border-right-color: #999;
+}
+.page_flow .body .inner {
+  display: table-cell;
+  vertical-align: middle;
+  opacity: .1;
+}
+.on.page_flow .body .inner {
+  -webkit-animation: fadeIn .5s forwards;
+}
+.page_flow .body h4 {
+  font-size: 14px;
+}
+.page_flow .body p {
+  font-size: 12px;
+  color: #A3A3A3;
+}
+.page_flow .body .arrow_right {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -3px;
+}
+.page_flow .body .arrow_bottom {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.page_flow .body .arrow_left {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -3px;
+}
+.page_flow .body .item_product .inner {
+  -webkit-animation-delay: 0s;
+}
+.page_flow .body .item_product .icon {
+  -webkit-animation-delay: 0.5s;
+}
+.page_flow .body .item_design .inner {
+  -webkit-animation-delay: 0.8s;
+}
+.page_flow .body .item_design .icon {
+  -webkit-animation-delay: 1.3s;
+}
+.page_flow .body .item_develop .inner {
+  -webkit-animation-delay: 2.4s;
+}
+.page_flow .body .item_develop .icon {
+  -webkit-animation-delay: 2.9s;
+}
+.page_flow .body .item_terminal .inner {
+  -webkit-animation-delay: 1.6s;
+}
+.page_flow .body .item_terminal .icon {
+  -webkit-animation-delay: 2.1s;
+}
+.page_flow .body .item_operation .inner {
+  -webkit-animation-delay: 3.2s;
+}
+.page_flow .body .item_operation .icon {
+  -webkit-animation-delay: 3.7s;
+}
+.page_flow .body .item_release .inner {
+  -webkit-animation-delay: 4s;
+}
+.page_flow .body .item_release .icon {
+  -webkit-animation-delay: 4.5s;
+}
+@-webkit-keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}

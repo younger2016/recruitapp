@@ -1,0 +1,78 @@
+.page_value {
+  background-image: url(../../../images/weDNA2/value/bg.jpg);
+  background-size: cover;
+}
+.page_value .icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.page_value .icon.cloud {
+  background: transparent url("value_z@2x.png") no-repeat 0px 0px;-webkit-background-size: 93px 93px;background-size: 93px 93px;
+}
+.page_value .icon.light {
+  background: transparent url("value_z@2x.png") no-repeat -31px 0px;-webkit-background-size: 93px 93px;background-size: 93px 93px;
+}
+.page_value .icon.lightning {
+  background: transparent url("value_z@2x.png") no-repeat 0px -31px;-webkit-background-size: 93px 93px;background-size: 93px 93px;
+}
+.page_value .icon.right {
+  background: transparent url("value_z@2x.png") no-repeat -31px -31px;-webkit-background-size: 93px 93px;background-size: 93px 93px;
+}
+.page_value .icon.rocket {
+  background: transparent url("value_z@2x.png") no-repeat -62px 0px;-webkit-background-size: 93px 93px;background-size: 93px 93px;
+}
+.page_value .icon.user {
+  background: transparent url("value_z@2x.png") no-repeat -62px -31px;-webkit-background-size: 93px 93px;background-size: 93px 93px;
+}
+.page_value .icon.thinking {
+  background: transparent url("value_z@2x.png") no-repeat 0px -62px;-webkit-background-size: 93px 93px;background-size: 93px 93px;
+}
+.page_value .body {
+  font-size: 14px;
+}
+.page_value ul {
+  min-height: 100%;
+  padding: 0 40px;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page_value li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  min-height: 3.8em;
+  border-bottom: 1px solid #E6E6E6;
+}
+.page_value li:last-child {
+  border-bottom: 0;
+}
+.page_value li .inner {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 70px;
+}
+@media only screen and (max-height: 510px) {
+  .page_value li {
+    min-height: 5.4em;
+  }
+}

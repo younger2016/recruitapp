@@ -1,0 +1,107 @@
+.page {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.page.next {
+  -webkit-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+}
+.page.prev {
+  -webkit-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  transform: translate(0, -100%);
+}
+.page_index {
+  background-color: #E4E7EE;
+  height: 100%;
+  text-align: center;
+}
+.page_index .bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.page_index .bg:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/weDNA2/index/bg.jpg) center center;
+  background-size: cover;
+  -webkit-transition: 5s linear;
+  transition: 5s linear;
+}
+.on.page_index .bg:after {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.page_index .slogon {
+  position: relative;
+  height: 218px;
+  overflow: hidden;
+}
+.page_index .slogon img {
+  margin: 50px auto 0 auto;
+  display: block;
+  -webkit-transition: 4s;
+  transition: 4s;
+  opacity: 0;
+}
+.on.page_index .slogon img {
+  opacity: 1;
+}
+.page_index .icon {
+  width: 75px;
+  height: 75px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.page_index .icon.circle {
+  background: transparent url("all_z@2x.png") no-repeat 0px 0px;-webkit-background-size: 228px 152px;background-size: 228px 152px;
+}
+.page_index .icon.gift {
+  background: transparent url("all_z@2x.png") no-repeat -76px 0px;-webkit-background-size: 228px 152px;background-size: 228px 152px;
+}
+.page_index .icon.lamp {
+  background: transparent url("all_z@2x.png") no-repeat 0px -76px;-webkit-background-size: 228px 152px;background-size: 228px 152px;
+}
+.page_index .icon.light {
+  background: transparent url("all_z@2x.png") no-repeat -76px -76px;-webkit-background-size: 228px 152px;background-size: 228px 152px;
+}
+.page_index .icon.screen {
+  background: transparent url("all_z@2x.png") no-repeat -152px 0px;-webkit-background-size: 228px 152px;background-size: 228px 152px;
+}
+.page_index .icon.tree {
+  background: transparent url("all_z@2x.png") no-repeat -152px -76px;-webkit-background-size: 228px 152px;background-size: 228px 152px;
+}
+.page_index .entrances {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 0;
+}
+.page_index .entrances a {
+  display: inline-block;
+  padding: 10px 0;
+  width: 33.333%;
+  color: #FFF;
+  font-size: 12px;
+}
+@media only screen and (max-height: 484px) {
+  .page_index .entrances {
+    padding: 0;
+  }
+  .page_index .entrances a {
+    padding: 0;
+  }
+}

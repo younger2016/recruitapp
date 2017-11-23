@@ -1,0 +1,23 @@
+.page_welfare .head {
+  background-image: url(../../../images/weDNA2/welfare/bg.jpg);
+}
+.page_welfare table {
+  width: 100%;
+  font-size: 14px;
+}
+.page_welfare tr:nth-child(2n) {
+  background-color: #FAFAFA;
+}
+.page_welfare td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #E8E8E8;
+}
+.page_welfare td:first-child {
+  border-right: 1px solid #E8E8E8;
+}
+.page_welfare .pic_display_box {
+  padding: 10px 15px;
+}
+.page_welfare .pic_display_box img {
+  margin: 5px 0;
+}

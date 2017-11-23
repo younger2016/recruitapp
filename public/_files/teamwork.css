@@ -1,0 +1,213 @@
+.page_teamwork .icon {
+  width: 37px;
+  height: 30px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.page_teamwork .icon.wechat {
+  background: transparent url("teamwork_z@2x.png") no-repeat 0px 0px;-webkit-background-size: 76px 31px;background-size: 76px 31px;
+}
+.page_teamwork .icon.mail {
+  background: transparent url("teamwork_z@2x.png") no-repeat -38px 0px;-webkit-background-size: 76px 31px;background-size: 76px 31px;
+}
+.page_teamwork .head {
+  background-image: url(../../../images/weDNA2/teamwork/bg.jpg);
+}
+.page_teamwork .intro_business {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.page_teamwork .intro_business dt {
+  padding-top: 35px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.page_teamwork .intro_business dd {
+  padding-bottom: 21px;
+  color: #898989;
+}
+.page_teamwork .intro_business p {
+  margin: 20px 0;
+}
+.page_teamwork .intro_wechat .intro_head {
+  background-image: url(../../../images/weDNA2/teamwork/bg_wechat.jpg);
+}
+.page_teamwork .intro_wechat .intro_body {
+  padding: 0 20px;
+}
+.page_teamwork .intro_wechat .intro_body h3 {
+  padding-top: 10px;
+}
+.page_teamwork .intro_wechat .intro_body h3.version {
+  margin-top: 10px;
+  padding-bottom: 0;
+  border-top: 1px dashed #E8E8E8;
+}
+.page_teamwork .intro_wechat .intro_body dl {
+  display: table;
+  width: 100%;
+  margin: 20px 0;
+}
+.page_teamwork .intro_wechat .intro_body dl dt {
+  display: table-cell;
+  padding-right: 20px;
+  width: 60px;
+  vertical-align: middle;
+  border-right: 1px solid #D7D8E3;
+  font-size: 34px;
+  line-height: 1;
+  color: #7E84A6;
+  text-align: right;
+}
+.page_teamwork .intro_wechat .intro_body dl dd {
+  display: table-cell;
+  padding-left: 20px;
+  vertical-align: middle;
+  line-height: 1.3;
+  font-size: 18px;
+}
+.page_teamwork .intro_wechat .intro_body dl .time {
+  font-size: 12px;
+  color: #898989;
+}
+.page_teamwork .intro_mail .intro_head {
+  background-image: url(../../../images/weDNA2/teamwork/bg_mail.jpg);
+}
+.page_teamwork .intro_mail h5 {
+  text-align: center;
+}
+.page_teamwork .intro_mail table {
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+.page_teamwork .intro_mail thead {
+  line-height: 1;
+}
+.page_teamwork .intro_mail .intro_body {
+  padding: 0 30px;
+}
+@media only screen and (max-width: 350px) {
+  .page_teamwork .intro_mail .intro_body {
+    padding: 0;
+  }
+}
+.page_teamwork .ct-bar {
+  stroke-width: 12px;
+}
+.page_teamwork .ct-grid.ct-horizontal {
+  display: none;
+}
+.page_teamwork .ct-vertical {
+  stroke: #565D82;
+  stroke-dasharray: 0;
+}
+.page_teamwork .ct-label {
+  color: #000;
+}
+.page_teamwork .ct-slice-pie {
+  fill: #555C83;
+  stroke: #555C83;
+}
+.page_teamwork h5 {
+  margin-top: 11px;
+}
+.page_teamwork .chart {
+  position: relative;
+  height: 300px;
+  margin: 0 20px 0 16px;
+}
+.page_teamwork .pie {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+}
+.page_teamwork .pie path {
+  stroke-width: 10px;
+  -webkit-transition-property: stroke-dashoffset;
+  transition-property: stroke-dashoffset;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+.page_teamwork .pie.on#pieIOS path {
+  stroke-dashoffset: 52px !important;
+}
+.page_teamwork .pie.on#pieAndroid path {
+  stroke-dashoffset: 102px !important;
+}
+.page_teamwork .pie.on#pieWeb path {
+  stroke-dashoffset: 184px !important;
+}
+.page_teamwork .pie_primary {
+  stroke: #555C83;
+}
+.page_teamwork .chart_primary {
+  stroke: #A4A7BB;
+}
+.page_teamwork .chart_primary:last-child {
+  stroke: #555C83;
+}
+.page_teamwork .chart_default,
+.page_teamwork .pie_default {
+  stroke: #E3E3E3;
+}
+.page_teamwork .top_tips {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  background-color: #555C83;
+  line-height: 35px;
+  color: #FFF;
+  text-align: center;
+  -webkit-transform: translate(-50%, -130%);
+  -ms-transform: translate(-50%, -130%);
+  transform: translate(-50%, -130%);
+  opacity: 0;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.page_teamwork .top_tips.on {
+  -webkit-transition: 1s 0.5s;
+  transition: 1s 0.5s;
+  -webkit-transform: translate(-50%, -100%);
+  -ms-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
+  opacity: 1;
+}
+.page_teamwork .top_tips:after {
+  content: " ";
+  position: absolute;
+  margin-left: -8px;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 8px;
+  border-style: dashed;
+  border-color: transparent;
+  border-bottom-width: 0;
+  border-top-color: #555C83;
+  border-top-style: solid;
+}
+.page_teamwork .chart_line circle {
+  opacity: 0;
+}
+.page_teamwork .chart_line.on circle {
+  opacity: 1;
+  -webkit-transition: 0.5s 0.3s;
+  transition: 0.5s 0.3s;
+}
+.page_teamwork .chart_line.on line {
+  -webkit-transition-property: stroke-dashoffset;
+  transition-property: stroke-dashoffset;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  stroke-dashoffset: 0 !important;
+}
+.page_teamwork path {
+  fill: none;
+}
